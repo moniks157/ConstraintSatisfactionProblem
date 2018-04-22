@@ -20,7 +20,10 @@ Backtracking::~Backtracking()
 void Backtracking::run()
 {
 	auto start = std::chrono::high_resolution_clock::now();
-	queen(1);
+	//for (int i = 0; i < 10; ++i)
+	{
+		queen(1);
+	}
 	auto finish = std::chrono::high_resolution_clock::now();
 	std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(finish - start).count()<<"\n";
 	//printf_s("%d\n", x);

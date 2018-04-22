@@ -148,6 +148,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Backtracking.h" />
+    <ClInclude Include="BT_LatinSquare.h" />
+    <ClInclude Include="FC_LatinSquare.h" />
     <ClInclude Include="ForwardChecking.h" />
     <ClInclude Include="NQueen.h" />
     <ClInclude Include="resource.h" />
@@ -156,7 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Backtracking.cpp" />
+    <ClCompile Include="BT_LatinSquare.cpp" />
     <ClCompile Include="ConstraintSatisfactionProblem.cpp" />
+    <ClCompile Include="FC_LatinSquare.cpp" />
     <ClCompile Include="ForwardChecking.cpp" />
     <ClCompile Include="NQueen.cpp" />
     <ClCompile Include="stdafx.cpp">

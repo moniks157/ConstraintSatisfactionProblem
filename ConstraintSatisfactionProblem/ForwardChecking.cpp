@@ -1,9 +1,6 @@
 #include "stdafx.h"
 #include "ForwardChecking.h"
 #include <string.h>
-#include <chrono>
-#include <algorithm>
-#include <numeric>
 
 
 ForwardChecking::ForwardChecking(int N)
@@ -22,13 +19,12 @@ ForwardChecking::~ForwardChecking()
 
 void ForwardChecking::run()
 {
-	auto start = std::chrono::high_resolution_clock::now();
-	for (int i = 0; i < 10; ++i)
-	{
+	
+	//for (int i = 0; i < 10; ++i)
+	
 		queen(1, _domain);
-	}
-	auto finish = std::chrono::high_resolution_clock::now();
-	std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(finish - start).count()/10 << "\n";
+	
+	
 	//printf_s("%d\n", x);
 }
 
